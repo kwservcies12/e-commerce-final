@@ -6,7 +6,12 @@
 
 1. Methodologies/Project Management:
 
-   - Agile
+   - API's
+   - Functional Programming
+   - Behavioral Driven Development
+   - Problem Solving
+
+
 
 2. Coding Practices:
 
@@ -22,9 +27,6 @@
    - MongoDB
    - Axios
 
-## Live Demo
-
-- [react-complete-e-commerce](https://react-complete-e-commerce.herokuapp.com/ "react-complete-e-commerce")
 
 ### Home Page
 

@@ -28,6 +28,7 @@ const CartScreen = ({ match, location, history }) => {
 		if (productId) {
 			dispatch(addToCart(productId, qty))
 		}
+
 	}, [dispatch, productId, qty]) // Dependencies change 
 
 	const removeFromCartHandler = (id) => {
