@@ -21,7 +21,7 @@ const ProductScreen = ({ history, match }) => {
 
 	const dispatch = useDispatch()
 
-	// useSelector is to grab what we want from the state
+	
 	const productDetails = useSelector((state) => state.productDetails)
 	const { loading, error, product } = productDetails
 
@@ -52,7 +52,7 @@ const ProductScreen = ({ history, match }) => {
 				dispatch({ type: PRODUCT_CREATE_REVIEW_RESET })
 			}
 		},
-		[dispatch, match, successProductReview, product._id] // Dependencies, on change they fire off useEffect
+		[dispatch, match, successProductReview, product._id] 
 	)
 
 	// Add to cart handler
