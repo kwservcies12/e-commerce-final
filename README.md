@@ -2,7 +2,7 @@
 
 ## Repository for my react-complete-e-commerce project
 
-Find out how to build a complete e-commerce platform. Author Kane Whiteside tackles CRUD functions and connects the system to a database of MongoDB (Document database). Created a full-stack platform using JavaScript. The frontend was created using React and the backend was created using NodeJS, Express, MongoDB. Then I used Axios and Redux to link my backend with my frontend. I also used Postman to test my end points. 
+. Author Kane Whiteside tackles CRUD functions and connects the system to a database of MongoDB (Document database). Created a full-stack platform using JavaScript. The frontend was created using React and the backend was created using NodeJS, Express, MongoDB. Then I used Axios and Redux to link my backend with my frontend. I also used Postman to test my end points. 
 
 1. Methodologies/Project Management:
 
@@ -20,7 +20,6 @@ Find out how to build a complete e-commerce platform. Author Kane Whiteside tack
    - NodeJS
    - Express
    - MongoDB
-   - Postman
    - Axios
 
 ## Live Demo
