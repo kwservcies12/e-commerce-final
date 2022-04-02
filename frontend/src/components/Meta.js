@@ -16,9 +16,9 @@ const Meta = ({ title, description, keywords, author }) => {
 
 Meta.defaultProps = {
 	title: 'React E-Commerce | Home',
-	description: 'Best products at an affordable price',
-	keywords: 'buy, iphone, electronics, South, Africa',
-	author: 'Melvin Kisten',
+	description: 'Top products at a price you can afford ',
+	keywords: 'buy, iphone, electronics, North, America',
+	author: 'Kane Whiteside',
 }
 
 export default Meta

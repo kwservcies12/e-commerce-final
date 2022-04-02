@@ -3,8 +3,8 @@ import bcrypt from 'bcryptjs'
 const users = [
 	// Admin user
 	{
-		name: 'Melvin Doe',
-		email: 'melvin@eg.com',
+		name: 'john Doe',
+		email: 'john@eg.com',
 		password: bcrypt.hashSync('12345', 10), //  10 = num rounds
 		isAdmin: true,
 	},

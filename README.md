@@ -2,7 +2,7 @@
 
 ## Repository for my react-complete-e-commerce project
 
-Find out how to build a complete e-commerce platform. Author Melvin Kisten tackles CRUD functions and connects the system to a database of MongoDB (Document database). Created a full-stack platform using JavaScript. The frontend was created using React and the backend was created using NodeJS, Express, MongoDB. Then I used Axios and Redux to link my backend with my frontend. I also used Postman to test my end points. 
+Find out how to build a complete e-commerce platform. Author Kane Whiteside tackles CRUD functions and connects the system to a database of MongoDB (Document database). Created a full-stack platform using JavaScript. The frontend was created using React and the backend was created using NodeJS, Express, MongoDB. Then I used Axios and Redux to link my backend with my frontend. I also used Postman to test my end points. 
 
 1. Methodologies/Project Management:
 
@@ -81,7 +81,7 @@ Find out how to build a complete e-commerce platform. Author Melvin Kisten tackl
 2. Clone this repository into your local machine using the terminal (mac) or [Gitbash (PC)](https://git-scm.com/download/win "Gitbash (PC)")
 
    ```
-   > git clone https://github.com/iammelvink/react-complete-e-commerce.git
+   > git clone https://github.com/kwservcies12/e-commerce-final.git
    ```
 
 3. backend setup (DO NOT cd to backend) (running on port you decide)
@@ -256,4 +256,4 @@ Find out how to build a complete e-commerce platform. Author Melvin Kisten tackl
 
 ## More Stuff
 
-Check out some other stuff on [Melvin K](https://github.com/iammelvink "Melvin K GitHub page").
+Check out some other stuff on [Kane W](https://github.com/kwservices12 "Kane W GitHub page").

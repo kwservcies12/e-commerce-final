@@ -17,14 +17,14 @@ const HomeScreen = ({ match }) => {
 
 	const dispatch = useDispatch()
 
-	// useSelector is to grab what we want from the state
+	
 	const productList = useSelector((state) => state.productList)
 	const { loading, error, products, page, pages } = productList
 
-	// make request here upon component load
+
 	useEffect(
 		() => {
-			// Fire off action to get the products
+			
 			dispatch(listProducts(keyword, pageNumber))
 		},
 		[dispatch, keyword, pageNumber] // Dependencies, on change they fire off useEffect

@@ -27,14 +27,14 @@ const Header = () => {
 				collapseOnSelect
 			>
 				<Container>
-					{/* Melvin Kisten */}
+					{/* Kane Whiteside*/}
 					<a
 						rel='noopener noreferrer'
-						href='https://github.com/iammelvink'
+						href='https://github.com/kwservices'
 						target='_blank'
-						className='melvin-kisten'
+						className='kane-whiteside'
 					>
-						<i className='fas fa-user-circle'></i> Melvin Kisten Github
+						<i className='fas fa-user-circle'></i> Kane Whiteside
 					</a>
 					{/* Home */}
 					<LinkContainer to='/'>
