@@ -26,7 +26,7 @@
     "mongodb",
     "server"
   ],
-  "author": " Kisten",
+  "author": " Kane",
   "license": "GPL-2.0",
   "dependencies": {
     "bcryptjs": "^2.4.3",

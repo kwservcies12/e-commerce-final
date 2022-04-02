@@ -10,8 +10,8 @@ const users = [
 	},
 	// Standard users
 	{
-		name: 'Belle Doe',
-		email: 'belle@eg.com',
+		name: 'Kane',
+		email: 'k.w.services12@gmail.com',
 		password: bcrypt.hashSync('12345', 10), //  10 = num rounds
 	},
 	{

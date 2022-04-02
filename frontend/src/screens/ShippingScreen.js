@@ -6,7 +6,7 @@ import CheckoutSteps from '../components/CheckoutSteps'
 import { saveShippingAddress } from '../actions/cartActions'
 
 const ShippingScreen = ({ history }) => {
-	// useSelector is to grab the cart from the state
+	
 	const cart = useSelector((state) => state.cart)
 	const { shippingAddress } = cart
 

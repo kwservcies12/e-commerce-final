@@ -13,7 +13,7 @@ const LoginScreen = ({ location, history }) => {
 
 	const dispatch = useDispatch()
 
-	// useSelector is to grab what we want from the state
+	
 	const userLogin = useSelector((state) => state.userLogin)
 	const { loading, error, userInfo } = userLogin
 

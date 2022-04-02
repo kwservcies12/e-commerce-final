@@ -16,20 +16,19 @@ const RegisterScreen = ({ location, history }) => {
 
 	const dispatch = useDispatch()
 
-	// useSelector is to grab what we want from the state
 	const userRegister = useSelector((state) => state.userRegister)
 	const { loading, error, userInfo } = userRegister
 
 	const redirect = location.search ? location.search.split('=')[1] : '/'
 
-	// make request here upon component load
+	
 	useEffect(
 		() => {
 			if (userInfo) {
 				history.push(redirect)
 			}
 		},
-		[history, userInfo, redirect] // Dependencies, on change they fire off useEffect
+		[history, userInfo, redirect] 
 	)
 
 	const submitHandler = (e) => {

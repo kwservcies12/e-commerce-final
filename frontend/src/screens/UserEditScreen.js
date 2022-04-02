@@ -17,7 +17,7 @@ const UserScreen = ({ match, history }) => {
 
 	const dispatch = useDispatch()
 
-	// useSelector is to grab what we want from the state
+	
 	const userDetails = useSelector((state) => state.userDetails)
 	const { loading, error, user } = userDetails
 
@@ -28,7 +28,7 @@ const UserScreen = ({ match, history }) => {
 		success: successUpdate,
 	} = userUpdate
 
-	// make request here upon component load
+	//request upon component load
 	useEffect(() => {
 		if (successUpdate) {
 			dispatch({ type: USER_UPDATE_RESET })
@@ -42,7 +42,7 @@ const UserScreen = ({ match, history }) => {
 				setIsAdmin(user.isAdmin)
 			}
 		}
-	}, [successUpdate, dispatch, history, user, userId]) // Dependencies, on change they fire off useEffect)
+	}, [successUpdate, dispatch, history, user, userId]) 
 
 	const submitHandler = (e) => {
 		e.preventDefault()

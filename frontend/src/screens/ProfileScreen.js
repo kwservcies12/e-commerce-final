@@ -29,11 +29,11 @@ const ProfileScreen = ({ history }) => {
 	const userUpdateProfile = useSelector((state) => state.userUpdateProfile)
 	const { success } = userUpdateProfile
 
-	// To get my list of orders
+	// get my list of orders
 	const orderListMy = useSelector((state) => state.orderListMy)
 	const { loading: loadingOrders, error: errorOrders, orders } = orderListMy
 
-	// make request here upon component load
+
 	useEffect(
 		() => {
 			if (!userInfo) {
@@ -49,12 +49,12 @@ const ProfileScreen = ({ history }) => {
 				}
 			}
 		},
-		[dispatch, history, userInfo, user, success] // Dependencies, on change they fire off useEffect
+		[dispatch, history, userInfo, user, success] 
 	)
 
 	const submitHandler = (e) => {
 		e.preventDefault()
-		// Check if passwords match
+		//checking passwards
 		if (password !== confirmPassword) {
 			setMessage('Passwords do not match')
 		} else {
@@ -142,7 +142,7 @@ const ProfileScreen = ({ history }) => {
 								<tr key={order._id}>
 									<td>{order._id}</td>
 									<td>{order.createdAt.substring(0, 10)}</td>
-									<td>R{order.totalPrice}</td>
+									<td>${order.totalPrice}</td>
 									<td>
 										{order.isPaid ? (
 											order.paidAt.substring(0, 10)
